@@ -75,6 +75,7 @@ Copy and paste the output below.
 ----------
 
 
+File Not Found
 
 
 
@@ -83,7 +84,7 @@ Copy and paste the output below.
 5.  What key do I press to go to the previous command?
 ----------
 
-
+the UP arrow on my keyboard
 
 
 
@@ -92,7 +93,8 @@ Copy and paste the output below.
 6.  Name two flags that we used in this exercise.
 ----------
 
-
+-l (list the long form of all files)
+-a (list all files including hidden ones)
 
 
 
@@ -102,7 +104,8 @@ Copy and paste the output below.
 ----------
 
 
-
+ls (list all files)
+dir (for windows)
 
 
 
@@ -111,7 +114,8 @@ Copy and paste the output below.
 ----------
 
 
-
+doesnotexist
+Documents
 
 
 
@@ -123,7 +127,8 @@ $ foo<ENTER>
 Copy and paste the output below.
 ----------
 
-
+'foo' is not recognized as an internal or external command,
+operable program or batch file.
 
 
 
@@ -136,7 +141,8 @@ Copy and paste the output below.
 Copy and paste the output below.
 ----------
 
-
+'foo' is not recognized as an internal or external command,
+operable program or batch file.
 
 
 
@@ -148,7 +154,10 @@ $ ls -a Desktop
 
 Identify the command, flag, argument, and prompt:
 ----------
-
+command - ls or dir
+flag - -a
+argument - Desktop
+prompt - $ (prompt is the symbol that tells you the computer is not currently running a command and is ready for your input)
 
 
 
