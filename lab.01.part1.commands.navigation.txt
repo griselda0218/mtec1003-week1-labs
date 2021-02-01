@@ -15,7 +15,24 @@ $ ls<ENTER>
 
 Copy and paste the output of ls below.
 ----------
-
+01/31/2021  09:11 PM    <DIR>          .
+01/31/2021  09:11 PM    <DIR>          ..
+01/31/2021  09:11 PM                36 .bash_history
+01/31/2021  08:29 PM    <DIR>          .vscode
+01/26/2021  02:12 AM    <DIR>          3D Objects
+01/26/2021  02:12 AM    <DIR>          Contacts
+01/30/2021  07:05 PM    <DIR>          Creative Cloud Files
+02/01/2021  02:31 PM    <DIR>          Desktop
+01/26/2021  02:12 AM    <DIR>          Documents
+01/31/2021  09:02 PM    <DIR>          Downloads
+01/26/2021  02:12 AM    <DIR>          Favorites
+01/26/2021  02:12 AM    <DIR>          Links
+01/26/2021  02:12 AM    <DIR>          Music
+12/16/2020  01:33 PM    <DIR>          OneDrive
+01/26/2021  02:12 AM    <DIR>          Pictures
+01/26/2021  02:12 AM    <DIR>          Saved Games
+01/26/2021  02:12 AM    <DIR>          Searches
+01/26/2021  02:12 AM    <DIR>          Videos
 
 
 
@@ -28,7 +45,8 @@ $ ls -l Documents<ENTER>
 
 Copy and paste the first *two lines* of output below.
 ----------
-
+01/26/2021  02:12 AM    <DIR>          .
+01/26/2021  02:12 AM    <DIR>          ..
 
 
 
@@ -42,7 +60,8 @@ $ ls -a Documents
 Copy and paste the first *two lines* of output below.
 ----------
 
-
+01/26/2021  02:12 AM    <DIR>          .
+01/26/2021  02:12 AM    <DIR>          ..
 
 
 
