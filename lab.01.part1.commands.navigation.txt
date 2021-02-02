@@ -274,7 +274,7 @@ $ pwd
 Copy and paste the output below.
 ----------
 
-
+/c
 
 
 
@@ -288,6 +288,7 @@ $ pwd
 Copy and paste the output below.
 ----------
 
+/c/Users/kiki
 
 
 
@@ -303,7 +304,7 @@ Copy and paste the output below.
 ----------
 
 
-
+/
 
 
 
@@ -317,6 +318,9 @@ $ ls -l
 Copy and paste the first 3 lines from the output into the space below.
 ----------
 
+-rw-r--r-- 1 kiki 197121   18765 Jan 14 07:37 LICENSE.txt
+-rw-r--r-- 1 kiki 197121  195478 Jan 14 07:38 ReleaseNotes.html
+drwxr-xr-x 1 kiki 197121       0 Jan 31 21:05 bin/
 
 
 
@@ -331,6 +335,7 @@ $ pwd
 Copy and paste the output into the space below.
 ----------
 
+/c/Users/kiki
 
 
 
@@ -345,9 +350,7 @@ $ pwd
 Copy and paste the output into the space below.
 ----------
 
-
-
-
+bash: cd: /Volumes: No such file or directory
 
 
 ==========
@@ -359,20 +362,20 @@ $ pwd
 Copy and paste the output into the space below.
 ----------
 
-
-
-
+bash: cd: /unknown_folder: No such file or directory
 
 
 ==========
 26. Type:
 
-$ cd ~/mtec1002
+$ cd ~/mtec1003
 $ pwd
 
 Copy and paste the output into the space below.
 ----------
 
+
+/c/Users/kiki/mtec1003
 
 
 
@@ -386,16 +389,16 @@ $ hostname
 Copy and paste the output into the space below.
 ----------
 
-
+DESKTOP-J8VJTQ8
 
 
 
 
 ==========
-28. Make sure you're back in your mtec1002, which should be in your home folder.  What command would you use to find out if you're in the right folder?  Write the command below, then run it.
+28. Make sure you're back in your mtec1003, which should be in your home folder.  What command would you use to find out if you're in the right folder?  Write the command below, then run it.
 ----------
 
-
+cd ~/mtec1003
 
 
 
@@ -403,7 +406,7 @@ Copy and paste the output into the space below.
 ==========
 29. If you're not in the right directory, type the following command:
 
-cd ~/mtec1002
+cd ~/mtec1003
 
 Otherwise skip this question/step!
 ----------
@@ -426,7 +429,7 @@ lemon
 Write the one command you used below:
 ----------
 
-
+mkdir
 
 
 
@@ -438,7 +441,7 @@ Write the command you used to create the directory below:
 ----------
 
 
-
+mkdir
 
 
 
