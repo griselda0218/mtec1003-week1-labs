@@ -259,8 +259,8 @@ $ pwd
 Copy and paste the output below.
 ----------
 
- ~/mtec1003/foo/bar/bar/baz/qux
-(accidentally typed bar twice)
+ ~/mtec1003/foo/bar/baz/qux
+
 
 
 
@@ -450,9 +450,14 @@ mkdir
 
 What is the modified date of the aardvark directory?
 ----------
+rwxr-xr-x 1 kiki 197121 0 Feb  1 19:48 aardvark/
+drwxr-xr-x 1 kiki 197121 0 Feb  1 16:54 animals/
+drwxr-xr-x 1 kiki 197121 0 Feb  1 16:59 foo/
+drwxr-xr-x 1 kiki 197121 0 Feb  1 16:57 food/
+drwxr-xr-x 1 kiki 197121 0 Feb  1 19:47 pineapple/
 
 
-
+2/1/21
 
 
 
@@ -467,7 +472,7 @@ What command did you use?
 ----------
 
 
-
+mkdir -p foo/bar/baz
 
 
 
@@ -477,7 +482,7 @@ What command did you use?
 What command did you use?
 ----------
 
-
+cd
 
 
 
@@ -488,7 +493,7 @@ What command did you use?
 What command did you use?
 ----------
 
-
+cd
 
 
 
@@ -498,7 +503,7 @@ What command did you use?
 ----------
 
 
-
+rmdir
 
 
 
@@ -506,7 +511,7 @@ What command did you use?
 37. What command is used to print out your current working directory?
 ----------
 
-
+ls
 
 
 
@@ -515,7 +520,7 @@ What command did you use?
 38. What flag do I pass to ls to print out all files?
 ----------
 
-
+-l
 
 
 
@@ -525,7 +530,7 @@ What command did you use?
 ----------
 
 
-
+/users/username
 
 
 
@@ -533,7 +538,7 @@ What command did you use?
 40. What's a pathname?
 ----------
 
-
+a pathname is the general form of the name of a file or directory, it specifies a unique location in a file system
 
 
 
@@ -542,7 +547,7 @@ What command did you use?
 41. What is a directory?
 ----------
 
-
+a directory is a cataloging structure on a file system that refernces other files
 
 
 
@@ -550,3 +555,4 @@ What command did you use?
 ==========
 42. What's the *absolute* path (full path, starting at root) to your user's Downloads directory?
 ----------
+/users/username/Downloads
