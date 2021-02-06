@@ -75,7 +75,7 @@ $ echo hello there
 Copy and paste the output below.
 ----------
 
-
+hello there
 
 
 ==========
@@ -86,7 +86,7 @@ $ echo whoa
 Copy and paste the output below.
 ----------
 
-
+whoa
 
 ==========
 3. Type:
@@ -96,7 +96,7 @@ $ echo good mornin'
 Copy and paste the output below.
 ----------
 
-
+>
 
 ==========
 4. Uh-oh... we're stuck!
@@ -114,7 +114,7 @@ $ echo "good mornin'"
 Copy and paste the output below.
 ----------
 
-
+good mornin'
 
 ==========
 6. There are some other symbols that have special meanings if you don't quote them.
@@ -125,7 +125,7 @@ $ echo *
 What happens?
 ----------
 
-
+aardvark animals foo food pineapple stuff
 
 
 ==========
@@ -134,7 +134,7 @@ What happens?
 Write the command that you used below:
 ----------
 
-
+clear
 
 ==========
 Downloading files from a web site:  We'll use the following method to download more lab materials!
@@ -149,9 +149,10 @@ $ curl -o mygoogle.html www.google.com
 Now copy and paste the output below.
 ----------
 
-
-
-
+$ curl -o mygoogle.html ww.google.com
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100   220  100   220    0     0   2095      0 --:--:-- --:--:-- --:--:--  2115
 
 
 
@@ -161,9 +162,8 @@ Now copy and paste the output below.
 Write the command you used to determine your directory. Also, copy and paste the output below.
 ----------
 
-
-
-
+pwd
+/c/Users/kiki/mtec1003
 
 ==========
 10. If you're not in your home directory, change to it (use the shortcut).
@@ -172,7 +172,7 @@ Write the command that you used to change to your home directory.
 If you were already in your home directory, write the command that you *would* have used to change to it!
 ----------
 
-
+cd ~
 
 ==========
 11. So... the lab materials are located at this url:
@@ -189,6 +189,12 @@ Write down the command(s) that you used to download the file below.
 Finally, write the output of the command below.
 ----------
 
+curl -o MTEC1003-my-flashcards.zip http://einbahnstrasse.github.io.Goldford-MTEC1003-Fall2020/Labs/01/my-flashcards.zip
+ 
+$ curl -o MTEC1003-my-flashcards.zip http://einbahnstrasse.github.io/Goldford-MTEC1003-Fall2020/Labs/01/my-flashcards.zip
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  9115  100  9115    0     0   123k      0 --:--:-- --:--:-- --:--:--  125k
 
 
 
@@ -205,6 +211,7 @@ List the contents of your home directory to prove that the directory was created
 Copy and paste the output below.
 ----------
 
+MTEC1003-my-flashcards.zip  aardvark/  animals/  foo/  food/  mygoogle.html  pineapple/  stuff/
 
 
 
@@ -220,7 +227,7 @@ List the files in the directory you're currently in (which should be stuff).
 Copy and paste the output below.
 ----------
 
-
+hello.txt
 
 ==========
 14. Go up one directory back into your home directory.
@@ -233,6 +240,8 @@ List the files in the directory you're currently in (which should be home).
 Copy and paste the output below.
 ----------
 
+MTEC1003-my-flashcards.zip  animals/  food/      mygoogle.html  stuff/
+aardvark/                   foo/      hello.txt  pineapple/     stuff.tar
 
 
 
@@ -245,6 +254,9 @@ $ tar -cvf stuff.tar stuff
 Copy and paste the output below.
 ----------
 
+
+tar: stuff: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
 
 
 
@@ -259,7 +271,8 @@ List your files again.... you should have a new file with a .gz extension.
 Copy and paste the output of your this below.
 ----------
 
-
+MTEC1003-my-flashcards.zip  animals/  food/      mygoogle.html  stuff/
+aardvark/                   foo/      hello.txt  pineapple/     stuff.tar.gz
 
 
 
@@ -270,3 +283,5 @@ $ tar -xvf stuff.tar.gz
 
 List the files.  Copy and paste the output below (the folder, stuff, should be there).
 ----------
+MTEC1003-my-flashcards.zip  animals/  food/      mygoogle.html  stuff/
+aardvark/                   foo/      hello.txt  pineapple/     stuff.tar.gz
